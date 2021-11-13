@@ -9,3 +9,12 @@ There's two scripts here. Run `triple_d_scraper.rb` to grab all the restaurants 
 To run the scraper, make sure you have Nokogiri installed: `gem install nokogiri`.
 
 To run the loader, be sure to have SQLite3 installed. Then run: `gem install sequel geocoder`.
+
+### Running It
+
+There's no shebang here. There's no command line arguments. Everything is hardwired. So:
+
+- To scrape: `ruby triple_d_scraper.rb`
+- To load: `ruby triple_d_loader.rb`
+
+Bon appetit!
