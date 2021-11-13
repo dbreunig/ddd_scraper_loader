@@ -1,6 +1,6 @@
 # Diners, Drive-Ins, and Drives
 
-Here's a script for scraping Food Network's Diners, Drive-Ins, and Dives restaurant listing. As an accidental founding member of [Team Fieri](https://www.thewrap.com/team-guy-fieri-comes-defense-skewers-ny-times-food-critic-65491/), I figured, "Why not?" 
+Here's a script for scraping Food Network's Diners, Drive-Ins, and Dives restaurant listing. As an accidental founding member of [Team Fieri](https://www.thewrap.com/team-guy-fieri-comes-defense-skewers-ny-times-food-critic-65491/) I figured, "Why not?" 
 
 There's two scripts here. Run `triple_d_scraper.rb` to grab all the restaurants and output them to a JSON file. Run `triple_d_loader.rb` to load that JSON file, geocode it, and slam it into a SQLite database.
 
