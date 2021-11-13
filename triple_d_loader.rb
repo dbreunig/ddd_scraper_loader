@@ -31,8 +31,6 @@ diners      = JSON.parse(filedata)
 # Step through the JSON, geocode it, and load it
 diners.each do | diner |
     results = Geocoder.search(diner['address'])
-    p diner
-    p results
     unless results.empty?
         result = results.first.data
         address = result['address']
