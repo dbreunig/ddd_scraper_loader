@@ -58,13 +58,3 @@ diners.each do | diner |
         )
     end
 end
-
-#<Geocoder::Result::Nominatim:0x0000000148c91ac8 @data=
-{
-    "place_id"=>65885532, 
-    "licence"=>"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright", 
-    "osm_type"=>"node", 
-    "osm_id"=>6068492673, 
-    "boundingbox"=>["44.0464259", "44.0465259", "-121.311051", "-121.310951"], 
-    "lat"=>"44.0464759", 
-    "lon"=>"-121.311001", "display_name"=>"CR Property Management, 384, Southwest Upper Terrace Drive, Bend, Deschutes County, Oregon, 97702, United States", "class"=>"office", "type"=>"company", "importance"=>0.621, "address"=>{"office"=>"CR Property Management", "house_number"=>"384", "road"=>"Southwest Upper Terrace Drive", "city"=>"Bend", "county"=>"Deschutes County", "state"=>"Oregon", "postcode"=>"97702", "country"=>"United States", "country_code"=>"us"}}
